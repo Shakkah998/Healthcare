@@ -49,9 +49,3 @@ This project leverages **Power BI dashboards** to analyze hospital discharge dat
 - **Cost Analysis:** Visualization of financial data reveals high-cost procedures and potential areas for optimization.
 
 ---
-
-## 🖼 Dashboard Preview  
-*(Add screenshots of your dashboard in the `images/` folder and reference them here)*  
-```md
-![Healthcare Dashboard Preview](images/healthcare_dashboard_1.png)
-![Healthcare Dashboard Preview](images/healthcare_dashboard_2.png)
