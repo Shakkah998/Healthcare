@@ -1,62 +1,57 @@
-# 📊 Analyzing Healthcare Data Dashboard
+# 🏥 Healthcare Dashboard – Hospital Discharge Analysis
 
 ---
 
 ## 📌 Overview  
-This project leverages Power BI to explore and analyze trends in the data science job market. By examining job posting data, it reveals insights into salary patterns, popular job titles, required skills, applicant volumes, and industry demand, providing actionable information for job seekers, recruiters, and educators.
+This project leverages **Power BI dashboards** to analyze hospital discharge data from New York State. By visualizing patient demographics, diagnoses, procedures, lengths of stay, and financial information, the dashboard provides actionable insights for hospital administrators, healthcare professionals, and policymakers to make informed, data-driven decisions.
 
 ---
 
 ## 🎯 Objectives  
-- Explore trends in in-demand skills and technologies for data roles.  
-- Analyze experience level and salary correlations.  
-- Visualize geographic distribution of data jobs and remote vs on-site opportunities.  
-- Enable structured reporting for workforce planning and career guidance.
+- Analyze hospital discharge patterns across different facilities.  
+- Identify trends in patient demographics, diagnoses, and procedures.  
+- Compare costs and resource utilization across hospitals.  
+- Provide an interactive dashboard to support decision-making in healthcare management.  
 
 ---
 
 ## 📂 Data Sources  
-- Publicly available job posting datasets.  
-- Features include: job title, required skills, experience level, salary, location, and work type (remote/on-site).
+- Public hospital discharge datasets from **New York State**.  
+- Data includes: patient demographics, diagnosis codes, procedures, length of stay, financial metrics, and hospital profiles.
 
 ---
 
 ## 🛠 Tools & Technologies  
-- **Power BI** for dashboard creation and visualization  
-- **DAX** for calculated measures and metrics  
-- Excel / CSV preprocessing for cleaning and formatting  
+- **Power BI** for dashboard development and data visualization  
+- **DAX** for calculated measures and analytics  
+- Excel / CSV preprocessing for data cleaning and transformation  
 
 ---
 
 ## ⚙️ Methodology  
-- Data Import: Load job posting datasets into Power BI.
+1. **Data Import:** Load hospital discharge datasets into Power BI.  
+2. **Data Cleaning:** Use Power Query to remove inconsistencies and ensure accuracy.  
+3. **Exploratory Analysis (EDA):** Examine patient and hospital patterns to identify key trends.  
+4. **Data Modeling:** Build relationships between tables and create calculated fields using DAX.  
+5. **Visualization:** Design interactive dashboards to highlight insights such as:  
+   - Hospital profiles and performance metrics  
+   - Patient demographics and lengths of stay  
+   - Cost comparisons across hospitals and procedures  
+6. **Dashboard Design:** Create user-friendly dashboards for intuitive exploration.  
+7. **Sharing & Collaboration:** Publish dashboards using Power BI Service for stakeholders.
 
-- Data Cleaning: Use Power Query to remove inconsistencies and ensure data quality.
-
-- Exploratory Analysis (EDA): Explore the data to identify trends and patterns in the job market.
-
-- Data Modeling: Establish relationships between tables and create calculated measures using DAX.
-
-- Visualization: Design interactive dashboards to highlight insights such as:
-
-  Job titles vs. salary trends
-
-  Job market demand over time
-
-  Skills required for different roles
-
-- Dashboard Design: Develop user-friendly interfaces for intuitive data exploration.
-  
 ---
 
 ## 🔑 Key Insights  
-- Growing Opportunities: The volume of data-related job postings has steadily increased over the years.
-  
-- High-Demand Roles: Data Scientists, Data Engineers, and Analysts remain the most sought-after positions.
-
-- Rising Salaries: Compensation in the data science sector continues to trend upward.
-
-- Leading Industries: Technology companies drive the majority of data science job openings.
+- **Patient Demographics:** Distribution by age, gender, and region highlights trends in hospital utilization.  
+- **Hospital Performance:** Differences in average length of stay and costs across hospitals indicate opportunities for efficiency improvement.  
+- **Procedure & Diagnosis Trends:** Common procedures and diagnoses help identify resource allocation needs.  
+- **Cost Analysis:** Visualization of financial data reveals high-cost procedures and potential areas for optimization.
 
 ---
 
+## 🖼 Dashboard Preview  
+*(Add screenshots of your dashboard in the `images/` folder and reference them here)*  
+```md
+![Healthcare Dashboard Preview](images/healthcare_dashboard_1.png)
+![Healthcare Dashboard Preview](images/healthcare_dashboard_2.png)
